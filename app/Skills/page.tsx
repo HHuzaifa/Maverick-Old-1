@@ -12,7 +12,7 @@ export default function Skills() {
             </h1>
             <p className="text-lg font-semibold xl:my-16 font-ParagraphFont my-11 text-[#f9f9f9]">
               Everything is achievable through technology. With each new skill I
-              acquire, I'm excited to see how it can be used to help others and
+              acquire, I&apos;m excited to see how it can be used to help others and
               create meaningful change.
             </p>
           </div>

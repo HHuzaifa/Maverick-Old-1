@@ -24,7 +24,7 @@ export default function About() {
                   Hi There!
                 </h1>
                 <h1 className="text-xl font-HeadingFont sm:text-2xl md:text-3xl lg:text-xl xl:text-2xl">
-                  I<span className="text-[#f9f9f9] font-bold">'</span>m{" "}
+                  I<span className="text-[#f9f9f9] font-bold">&apos;</span>m{" "}
                   <span className="text-[#f9f9f9] font-bold">Huzaifa</span>
                   <span className="text-[#f9f9f9] font-bold">,</span>
                 </h1>
