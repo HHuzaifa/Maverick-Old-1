@@ -1,9 +1,10 @@
 "use client";
-import Wrapper from "@/app/components/Wrapper";
+
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaGithub } from "react-icons/fa";
 import { BsMedium } from "react-icons/bs";
 // Components
-import Button from "@/app/components/Button";
+import Wrapper from "@/components/Wrapper";
+import Button from "@/components/Button";
 import Link from "next/link";
 
 export default function About() {

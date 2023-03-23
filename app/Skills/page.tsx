@@ -1,5 +1,5 @@
-import Wrapper from "@/app/components/Wrapper";
-import Skill from "@/app/components/SkillC";
+import Wrapper from "@/components/Wrapper";
+import Skill from "@/components/SkillC";
 
 export default function Skills() {
   return (
@@ -16,7 +16,7 @@ export default function Skills() {
               create meaningful change.
             </p>
           </div>
-          <div className="grid z-50 grid-cols-4 border-x-2 border-y-2 border-[#0087ff] gap-8 xl:grid-cols-10 xl:gap-10 bg-black p-10 rounded-xl">
+          <div className="grid z-50 grid-cols-4 gap-8 xl:grid-cols-10 xl:gap-10 bg-black p-10 rounded-xl">
             <Skill image="/Skills Icons/js.png" />
             <Skill image="/Skills Icons/react.png" />
             <Skill image="/Skills Icons/nextJs.png" />

@@ -1,5 +1,5 @@
-import Button from "@/app/components/Button";
-import Wrapper from "@/app/components/Wrapper";
+import Wrapper from "@/components/Wrapper";
+import Button from "@/components/Button";
 
 export default function ContactMe() {
   return (

@@ -1,5 +1,5 @@
-import Wrapper from "@/app/components/Wrapper";
-import PortfolioCard from "@/app/components/PortfolioC";
+import Wrapper from "@/components/Wrapper";
+import PortfolioCard from "@/components/PortfolioC";
 
 export default function Portfolio() {
   return (
@@ -10,7 +10,7 @@ export default function Portfolio() {
             My Recent Work
           </h1>
 
-          <div className="grid grid-cols-1 border-x-2 border-y-2 border-[#0087ff] gap-8 xl:grid-cols-3 xl:gap-10 bg-black p-10 rounded-xl">
+          <div className="grid grid-cols-1 gap-8 xl:grid-cols-3 xl:gap-10 bg-black p-10 rounded-xl">
             <PortfolioCard
               image="/Portfolio Images/panaverseTailwind.png"
               bText="View Live"
