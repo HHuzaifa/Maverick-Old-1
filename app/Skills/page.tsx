@@ -3,7 +3,7 @@ import Skill from "@/components/SkillC";
 
 export default function Skills() {
   return (
-    <section className="w-full h-screen flex justify-center items-center">
+    <section id="SkillsSection" className="w-full h-screen flex justify-center items-center">
       <Wrapper>
         <div className="w-full">
           <div className="flex flex-col text-justify">
@@ -16,7 +16,7 @@ export default function Skills() {
               create meaningful change.
             </p>
           </div>
-          <div className="grid z-50 grid-cols-4 gap-8 xl:grid-cols-10 xl:gap-10 bg-black p-10 rounded-xl">
+          <div className="grid z-50 grid-cols-4 gap-8 md:grid-cols-5 lg:grid-cols-8 xl:grid-cols-10 xl:gap-10 bg-black p-10 rounded-xl">
             <Skill image="/Skills Icons/js.png" />
             <Skill image="/Skills Icons/react.png" />
             <Skill image="/Skills Icons/nextJs.png" />

@@ -9,9 +9,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <Head />
-      <body className="bg-[#161616]">
+      <body className="bg-[#030023]">
         <Header />
         {children}
         <Footer />
