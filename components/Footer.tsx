@@ -1,6 +1,7 @@
 import Wrapper from "./Wrapper";
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaGithub } from "react-icons/fa";
 import { BsMedium } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
@@ -21,41 +22,51 @@ export default function Footer() {
           
 
           <div className="text-[#f9f9f9] text-xl flex space-x-3 xl:space-x-5">
-            <a
+            <motion.a
+            whileHover={{ scale: 1.4 }}
+            whileTap={{ scale: 0.7 }}
               href="https://github.com/HHuzaifa"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
+            whileHover={{ scale: 1.4 }}
+            whileTap={{ scale: 0.7 }}
               href="https://www.linkedin.com/in/huzaifa-hk/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedinIn />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
+            whileHover={{ scale: 1.4 }}
+            whileTap={{ scale: 0.7 }}
               href="https://www.facebook.com/huzaifakk50"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaFacebookF />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
+            whileHover={{ scale: 1.4 }}
+            whileTap={{ scale: 0.7 }}
               href="https://twitter.com/Hooha_riddle"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaTwitter />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
+            whileHover={{ scale: 1.4 }}
+            whileTap={{ scale: 0.7 }}
               href="https://huzaifa50100.medium.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <BsMedium />
-            </a>
+            </motion.a>
           </div>
         </div>
         <p className="text-[#f9f9f9] text-base font-logoSubFont">
