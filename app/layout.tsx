@@ -1,7 +1,9 @@
+"use client"
 import "./globals.css";
 import Header from "@/components/Header";
 import Head from "./head";
 import Footer from "@/components/Footer";
+import { AnimatePresence } from "framer-motion";
 
 export default function RootLayout({
   children,
@@ -11,11 +13,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <Head />
-      <body className="bg-[#030023]">
-        <Header />
-        {children}
-        <Footer />
-      </body>
+      <AnimatePresence mode="wait">
+        <body className="bg-[#030023]">
+          <Header />
+          {children}
+          <Footer />
+        </body>
+      </AnimatePresence>
     </html>
   );
 }
