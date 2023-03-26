@@ -120,7 +120,21 @@ export default function About() {
             </div>
 
             <div className="flex mb-20 justify-around xl:justify-start md:justify-start lg:justify-start xl:space-x-10 md:space-x-6 lg:space-x-10">
-              <a href="#PortfolioSection">
+              <a
+                href="#PortfolioSection"
+                onClick={(event) => {
+                  event.preventDefault();
+                  const yOffset = -180; // Set the offset here
+                  const element = document.querySelector("#PortfolioSection");
+                  if (element) {
+                    const y =
+                      element.getBoundingClientRect().top +
+                      window.pageYOffset +
+                      yOffset;
+                    window.scrollTo({ top: y, behavior: "smooth" });
+                  }
+                }}
+              >
                 <Button text={"See Portfolio"} />
               </a>
               <a href="#ContactSection">
