@@ -62,7 +62,18 @@ export default function Header() {
                 whileTap={{ scale: 0.2 }}
                 className="hover:text-[#0087ff] transition"
               >
-                <a href="#SkillsSection">Skills</a>
+                <a href="#SkillsSection" onClick={(event) => {
+                  event.preventDefault();
+                  const yOffset = -30; // Set the offset here
+                  const element = document.querySelector("#SkillsSection");
+                  if (element) {
+                    const y =
+                      element.getBoundingClientRect().top +
+                      window.pageYOffset +
+                      yOffset;
+                    window.scrollTo({ top: y, behavior: "smooth" });
+                  }
+                }}>Skills</a>
               </motion.li>
               <motion.li
                 whileHover={{ scale: 1.2 }}
