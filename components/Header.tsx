@@ -121,7 +121,7 @@ export default function Header() {
               <div className="absolute top-16 right-2 ml-3 -left-40 sm:mr-16 sm:-left-64 lg:hidden xl:hidden 2xl:hidden py-14 rounded-3xl bg-[#f9f9f9] text-[#020016]">
                 <ul className="max-w-full font-navLinkFont font-semibold space-y-10 text-center">
                   <li className="hover:text-[#0087ff] transition">
-                    <a href="/">About</a>
+                    <a href="#AboutSection">About</a>
                   </li>
                   <li className="hover:text-[#0087ff] transition">
                     <a href="#SkillsSection">Skills</a>
